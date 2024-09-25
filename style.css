@@ -182,8 +182,130 @@ border-radius: 5px;
   align-items: center;
 }
 
+.nol{
+    width: 100%;
+    height: 200px;
+    background-color: #fffffc;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.pool{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
 
 @media only screen and (max-width: 393px) {
 
+    .gool h1 {
+        font-size: 20px;
+        font-family: sans-serif;
+        color: white;
+    }
 
+
+    .para i {
+        width: 50px;
+        color: white;
+        gap: 5px;
+        font-size: 15px;
+    }
+
+    .Kenneth {
+        width: 100%;
+        height: 400px;
+        background-color: #fffffc;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+
+
+    .splide__list {
+        backface-visibility: hidden;
+        display: -ms-flexbox;
+        display: flex;
+        height: 100%;
+        width: max-content;
+        margin: 0!important;
+        padding: 0!important;
+    }
+
+    .all {
+        width: 100%;
+        height: 200px;
+    }
+
+    .all img{
+     width: 100%;
+     height: 50%;
+    }
+
+    .text {
+        width: 70%;
+        height: 200px;
+        display: contents;
+    }
+
+    .about {
+        width: 100%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text p{
+     font-size: 11px;
+    }
+
+    .selo {
+        width: 70%;
+        height: 700px;
+        background-color: #fffffc;
+        padding: 50px;
+        gap: 10px;
+    }
+
+    .project {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .selo p{
+     font-size: 11px;
+    }
+
+    .techn{
+     width: 100%;
+    }
+
+    .item_grid {
+        width: 100%;
+        height: 30%;
+    }
+
+    
+
+    .form button {
+        width: 40%;
+        height: 40px;
+        border: none;
+        outline-color: aqua;
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+    }
 }
